@@ -1,7 +1,5 @@
-a=25
-b=80
-print('Before Swapping',a,b)
-a=a+b
-b=a-b
-a=a-b
-print('After swapping',a,b)
+a = int(input('ENter the 1st no.:'))
+b = int(input('ENter the 2nd no.:'))
+a,b = b,a
+print('After swap the no. is: ',a,b)
+
